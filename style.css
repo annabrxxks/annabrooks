@@ -1,3 +1,13 @@
-.body {
+body {
     background-color: '#293241';
+    padding: 30rem 15rem;
+}
+
+.flexView {
+    display: flex;
+    justify-content: space-between;
+}
+.headshot {
+    border-radius: 100px;
+    
 }
