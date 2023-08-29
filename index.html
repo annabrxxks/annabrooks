@@ -22,9 +22,9 @@
           <div class="name">Anna Brooks</div>
           <p>frontend developer | software engineer</p>
           <div class="centerFlex">
-            <img class='link floating' src="images/github.png"/>
-            <img class='link floating' src="images/linkedin.png"/>
-            <img class='link floating' src="images/mail.png"/>
+              <a href="https://github.com/annabrxxks"><img class='link floating' src="images/github.png"/></a>
+              <a href="https://www.linkedin.com/in/anna-brooks-0157b6186/"><img class='link floating' src="images/linkedin.png"/></a>
+              <a href= mailto:“ambrooks.271@gmail.com”><img class='link floating' src="images/mail.png"></a>
           </div>
         </div>
       </div>
@@ -145,7 +145,9 @@
             <p>I’m a Texas A&M ‘24 Computer Science student who is currently seeking full-time employment after graduation as a frontend developer. </p>
             <p>My interests include mobile and web development, UI/UX design, and artificial intelligence.</p>
             <p>When I’m not coding, you can find me hiking, catching up on Netflix dramas, or producing music.</p>  
-            <a href="anna_brooks_resume.pdf">floating" style="width: 60%">View Resume</button></a>
+            <div style="display: flex; flex-direction: column; align-items: center">
+              <a href="anna_brooks_resume.pdf"> <button class="floating">View Resume</button></a>
+            </div>
           </div>
           <div class="card dark-blue">
             <h4>Contact Me</h4>
@@ -326,7 +328,7 @@
           clickable: true,
         },
         autoplay: {
-          delay: 5000,
+          delay: 10000,
         },
         autoHeight: true,
         navigation: {
